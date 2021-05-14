@@ -1,0 +1,61 @@
+.Header_container{
+    width: 100%;
+    border-bottom: 1px solid #ECEFF1;
+}
+
+.Header_div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 4em;
+}
+
+#logo{
+    width: 7em;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_list li a{
+    text-decoration: none;
+    padding: 0 1.1em;
+    color: #0F0F19;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.auth_btns{
+    font-weight: 600;
+}
+
+#SignIn{
+    text-decoration: none;
+    color: #0F0F19;
+    transition-duration: 0.2s;
+    font-size: 0.9em;
+}
+
+#SignIn:hover{
+    color: #0052FF;
+}
+
+#GetStarted{
+    background-color: #0052FF;
+    color: #fff;
+    border: 0;
+    padding: 0.8em 1em;
+    border-radius: 3px;
+    margin-left: 2em;
+    transition-duration: 0.2s;
+}
+
+#GetStarted:hover{
+    background-color: #0A46E4;
+}

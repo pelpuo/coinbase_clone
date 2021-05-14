@@ -1,0 +1,72 @@
+.Landing_container{
+    width: 100%;
+    border-bottom: 1px solid #ECEFF1;
+    padding: 3em 0;
+}
+
+.Landing_div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+}
+
+.Landing_info{
+ margin-left: 5em;
+}
+
+#jump_start_link{
+    display: flex;
+    align-items: center;
+}
+
+#jump_start_link img{
+    width: 1.6em;
+    margin-right: 0.4em;
+}
+
+#jump_start_link #arrow{
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+}
+
+.Landing_info h1{
+    font-size: 4em;
+    max-width: 400px;
+    line-height: 1.1em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.Landing_info h4{
+    font-size: 1.4em;
+    font-weight: 500;
+    max-width: 500px;
+    line-height: 1.3em;
+}
+
+.Landing_info p{
+    font-weight: 700;
+    color: #0A46E4;
+}
+
+.getStarted input{
+    padding: 1.5em 4em 1.5em 1em;
+    font-size: 1em;
+    border-radius: 3px;
+    border: 1px solid #E0E3E5;
+}
+
+.getStarted button{
+    padding: 1.5em 3em;
+    margin-left: 1em;
+    background-color: #0A46E4;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: 600;
+}
